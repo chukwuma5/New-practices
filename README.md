@@ -40,9 +40,6 @@
 
 <img src="beauty2/cooler3.png">
 
-<img src="beauty2/cooler7.png">
-
-
 ##worked on an animation section##
 -CSS BACKGROUND: Worked with beautiful background pictures and practised beautiful layout of background pictures.
 
@@ -76,8 +73,6 @@
    -For the images[https://unsplash.com/]
 
    -For the Fonts[https://fonts.google.com/]
-
-
 
 
  ## Licsense 
