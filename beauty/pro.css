@@ -1,0 +1,396 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:gray
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.joor{
+    font-size: 30px;
+    color: rgb(255, 127, 80);
+}
+
+b{
+    color:black;
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+nav{
+    border: none;
+    padding: 25px 5px;
+    margin-top: 30px;
+    background-color:white;
+}
+
+nav #go{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Barlow', sans-serif;
+}
+
+.baby{
+    border: none;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 3;
+justify-content: flex-start;
+font-family: 'Barlow', sans-serif;
+}
+
+a li{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: arial;
+    border-bottom: none;
+    padding: 2px;
+    transition: ease-in padding 1s;
+    color: black;
+    margin-top: 5px;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+
+}
+a:hover li{  
+    border-bottom: 2px solid rgb(255, 127, 80);
+    padding: 2px;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(255, 127, 80);
+}
+
+
+#bentley{
+    border: none;
+    margin-top: 40px;
+    padding: 20px 40px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+    background-color: none;
+    justify-content: center;
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+}
+
+#more{
+   color: 	#673232; 
+   font-weight: bolder;
+   font-size: 15px;
+   font-family: arial;
+   letter-spacing: .5px;
+   margin: 0px 5px;
+   font-family: 'Barlow', sans-serif;
+}
+#ego{
+    border: none;
+    display: flex;
+    flex-grow: 3;
+    letter-spacing: .5px;
+    padding: 20px 50px;
+    background-color: rgb(255, 127, 80);
+    margin-left: -5px;
+    font-family: 'Barlow', sans-serif;
+}
+
+#gbege{
+    width: 180px;
+}
+img{
+    width: 180px;
+    height: 30vh;
+    margin-top: 30px;
+    background: transparent;
+}
+
+#ops{
+      border: none;
+      width: 40%;
+      border-top: 2px solid rgb(255, 127, 80);
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.653);
+    font-family: 'Barlow', sans-serif;
+}
+/*
+#need #on:hover{  
+    background: rgba(226,0,0,0.7); 
+    }
+    
+    #need #on {
+        width: 350px;
+        height: 450px;
+        position: absolute;
+        top: 40px;
+        left: 70px;
+        background: transparent;
+        transition: 5s;
+    }
+*/
+
+
+
+#turn{
+   margin-top: -0px;
+   display: flex;
+border: none;
+flex-direction: row-reverse;
+justify-content: space-evenly;
+flex-wrap: wrap;
+flex-grow: 0 0 200px;
+}
+
+
+#come{
+    margin-top: -0px;
+    display: flex;
+ border: none;
+ flex-direction: row-reverse;
+ justify-content: space-evenly;
+ margin-bottom: 30px;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ flex-grow: 0 0 200px;
+}
+
+#well .alone{
+border: 1px solid rgb(255, 127, 80);
+margin-right: 5px;
+border-width: 2.5px;
+color: rgb(255, 127, 80);
+display: flex;
+font-family: sans-serif;
+background-color: rgb(255, 127, 80);
+}
+
+#well{
+    margin:10px 5px;
+    display: flex;
+    color: rgb(255, 127, 80);
+    font-family: sans-serif;
+}
+
+.fc{
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    width: 200px;
+    margin-left: 20px;
+padding-right: 35px;
+height: 200px;
+margin-top: 20px;
+border-top: 2px solid rgb(255, 127, 80);
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+#way{
+    border: none;
+    margin-bottom: 2px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 8px 7px;
+    margin-left: 2px;
+    width: 200px;
+    background-color: rgba(211, 211, 211, 0.395);
+    border-radius: 3px;
+    flex-basis: 600px;
+    font-family: 'Barlow', sans-serif;
+}
+ 
+#you{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+#mind{
+    border: none;
+    margin-left: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    height: 510px;
+    border-top: 2px solid rgb(255, 127, 80);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+#so{
+    width: 200px;
+    height: 25vh;
+    float: right;
+    margin: 3px;
+}
+
+#no{
+    width: 200px;
+    height: 25vh;
+    clear: both;
+    margin: 3px;
+}
+
+#name{
+    padding: 5px;
+    border: none;
+      overflow: auto;
+      width: 550px;
+      display: flex;
+      flex-shrink: 3px;
+      flex-basis: 600px;
+      margin-bottom: 20px;
+      font-family: 'Barlow', sans-serif;
+}
+
+p{
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 4px;
+    font-family: 'Barlow', sans-serif;
+}
+
+#sell .lone{
+    border: 1px solid rgb(255, 127, 80);
+    margin-right: 5px;
+    border-width: 2.5px;
+    height: .7em;
+    background-color: rgb(255, 127, 80);
+    display: flex;
+    }
+
+ #sell{
+    margin:10px 5px;
+    display: flex;
+ color: rgb(255, 127, 80);
+ font-family: sans-serif;
+ }  
+ 
+ #red{
+     color: rgb(255, 99, 71);
+     text-decoration: none;
+     font-size: 14px;
+     font-family: sans-serif;
+    margin:0px  4px;
+    font-family: 'Barlow', sans-serif;
+ }
+
+ #red:hover{
+     color: rgb(53, 178, 198);
+     text-decoration: underline rgb(53, 178, 198);
+ }
+
+ #red #set{
+    line-height: 2em;
+ }
+ i{
+    position: absolute;
+    top: -70px;
+    left: 1300px;
+    font-size: 12px;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 5px 5px;
+    border-radius: none;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.rand {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.hand {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 15px;
+    margin-top: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+body{
+    background: url(https://images.unsplash.com/photo-1559651868-066bcc28f358?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHN5ZG5leSUyMG9wZXJhJTIwaG91c2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}

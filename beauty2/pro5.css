@@ -1,0 +1,797 @@
+img{
+    width: 140px;
+}
+
+#wine{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    flex-grow: .5;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption{
+    text-align: start;
+    color: rgb(255, 160, 122);
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-family: 'notosans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: -30px;
+}
+
+#side{
+    font-size: 17px;
+    color: wheat;
+    font-family: sans-serif;
+    font-weight: 650;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+align-items: center;
+border: none;
+flex-grow: 2;
+justify-content: space-around;
+align-items: center;
+padding: 0px;
+margin: 20px;
+justify-content: center;
+align-items: center;
+font-family: 'Roboto', sans-serif;
+}
+
+li{
+    padding: 10px 30px;
+    display: flex;
+    border-left: 1px solid rgb(255, 160, 122);
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  /*  border-bottom-color: white;
+    border-top-color: white;*/
+}
+
+@media screen and (max-width:950px){
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+.nav{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    padding: 10px 10px;
+    display: flex;
+    border: none;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    border: none;
+    height: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700px;
+}
+
+#wine{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    flex-grow: .5;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media screen and (max-width:560px){
+    li{
+        padding: 5px 0px;
+        display: flex;
+        border: none;
+        flex-grow: 1;
+        justify-content: space-around;
+        align-items: center;
+        justify-items: center;
+        border: none;
+        font-size: .6em;
+        font-family: sans-serif;
+        font-weight: 700px;
+    }
+    .nav{
+        display: flex;
+        list-style: none;
+    align-items: center;
+    border: none;
+    flex-grow: 2;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+    }
+
+    .dey{
+        display: none;
+    }
+
+}
+
+#bed{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 215px;
+    border: none;
+    padding: 5px;
+    margin: 140px 200px;
+    background: rgba(247, 241, 241, 0.429);
+    font-family: 'Raleway', sans-serif;
+ /*   box-shadow: 0px 7px 0px 0px rgba(189, 22, 97, 0.782);*/
+}
+
+.yo{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: lighter;
+    transition: ease-in padding 1s;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    border-bottom: none;
+    padding: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 650;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    }
+    
+    .yo:hover{  
+        border-bottom: 2px dashed #0f60b1;
+        padding: 2px;
+        font-family: 'Barlow', sans-serif;
+        color: #1b82e9;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 650;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    }
+    
+
+body{
+    background-color: white;
+}
+main{ 
+background: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/c6ffc801-5f11-4e2d-bcc1-0328cf8be08e-open-plan-living-design-ideas-minimalist.jpg);
+    height: 70vh;
+    display: flex;
+    margin-top: 20px;
+    background-position: center;
+background-size: cover;
+font-family: 'Nanum Gothic', sans-serif;
+}
+
+h2{
+    font-size: 70px;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700px;
+}
+
+#bed p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700px;
+}
+
+#bed article{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -5px;
+    font-style: italic;
+    font-weight: 700px;
+}
+
+#bed #some{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+}
+
+.expect{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700px;
+}
+
+@media screen and (max-width:560px){
+    main{ 
+        background: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/c6ffc801-5f11-4e2d-bcc1-0328cf8be08e-open-plan-living-design-ideas-minimalist.jpg);
+            height: 50vh;
+            display: flex;
+            background-position: center;
+        background-size: cover;
+
+        }
+
+        #bed{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 200px;
+            height: 150px;
+            border: none;
+            padding: 5px;
+            margin: 80px;
+            background: rgba(247, 241, 241, 0.429);
+            font-family: 'Roboto', sans-serif;
+         /*   box-shadow: 0px 7px 0px 0px rgba(189, 22, 97, 0.782);*/
+        }
+
+        .yo{
+            text-decoration: none;
+            font-size: 10px;
+            font-weight: lighter;
+            transition: ease-in padding 1s;
+            color: black;
+            font-family: 'Barlow', sans-serif;
+            border-bottom: none;
+            padding: 2px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 650;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            }
+            
+            .yo:hover{  
+                border-bottom: 2px dashed #0f60b1;
+                padding: 2px;
+                font-family: 'Barlow', sans-serif;
+                color: #1b82e9;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 650;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            }
+            
+
+        h2{
+            font-size: 30px;
+            margin-top: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700px;
+        }
+        
+        #bed p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -50px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700px;
+        }
+        
+        #bed article{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2px;
+            font-style: italic;
+            font-size: 11px;
+            font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700px;
+        }
+        
+        #bed #some{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            font-style: italic;
+            font-size: 11px;
+            font-weight: 500;
+            font-weight: 700px;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .expect{
+            margin-bottom: -5px;
+            margin-top: 30px;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700px;
+        }
+ }
+
+
+#blessed h3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: -5px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+}
+
+#blessed p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+}
+
+#frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    font-size: 13px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+}
+
+#blessed{
+    margin-top: -20px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #e9ecef;
+}
+
+.shy{
+    font-size: 20px;
+    margin: 5px 0px;
+    display: flex;
+    color: #bdc0c6;
+    font-weight: 700px;
+}
+
+hr{
+    width: 150px;
+    border-top: none;
+    border-bottom: 0.5px solid rgb(77, 164, 240);
+}
+
+@media screen and (max-width:730px) and  (min-width:561px) { 
+#bed{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 200px;
+    border: none;
+    padding: 5px;
+    margin: 80px;
+    background: rgba(247, 241, 241, 0.429);
+ /*   box-shadow: 0px 7px 0px 0px rgba(189, 22, 97, 0.782);*/
+}
+
+main{ 
+    background: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/c6ffc801-5f11-4e2d-bcc1-0328cf8be08e-open-plan-living-design-ideas-minimalist.jpg);
+        height: 50vh;
+        display: flex;
+        font-family: 'Nanum Gothic', sans-serif;
+        background-position: center;
+    background-size: cover;
+    }
+}
+
+@media screen and (max-width:600px){      
+    #blessed h3{
+    display: flex;
+    font-size: 27px;
+    font-weight: 700px;
+    }
+    
+    #blessed p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700px;
+    }
+    
+    #frame{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700px;
+    }
+    
+    #blessed{
+        margin-top: 50px;
+        font-weight: 700px;
+    }
+    #money #way{ 
+        font-size: 20px;
+        font-size: 20px;
+        border: 2px solid rgb(222, 184, 135);
+        display: flex;
+        flex-grow: .5;
+        margin-top: -45px;
+        padding: 10px 5px;
+        justify-content: center;
+        font-family: sans-serif;
+        font-size: 13px;
+        text-decoration: none;
+        background: none;
+        color: rgb(30, 113, 214);
+        padding: 5px 0px;
+        text-transform: uppercase;
+        color: wheat;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 650px;
+        }
+
+        #money #way:hover{
+            color: rgb(17, 8, 2);
+            cursor: pointer; 
+            border: 2px solid rgb(113, 110, 106);
+            font-family: 'Raleway', sans-serif;
+            font-weight: 650px;
+        }
+    .shy{
+        font-size: 20px;
+        margin: 0px 0px;
+        display: flex;
+        color: #bdc0c6;
+    }
+
+    main{ 
+        background: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/c6ffc801-5f11-4e2d-bcc1-0328cf8be08e-open-plan-living-design-ideas-minimalist.jpg);
+            height: 50vh;
+            display: flex;
+            background-position: center;
+        background-size: cover;
+        }
+    
+}
+
+    @media screen and (max-width:540px){      
+        #blessed h3{
+        display: flex;
+        font-size: 19.5px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700px;
+        }
+
+
+        .shy{
+            font-size: 16px;
+            margin: 0px 0px;
+            color: #bdc0c6;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700px;
+        }
+
+        #frame{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -10px;
+            font-size: 13px;
+            font-family: sans-serif;
+            font-weight: 700px;
+        }
+
+        #bant{
+            font-size: 12.5px;
+            font-family: sans-serif;
+            font-weight: 700;
+            font-family: 'Noto Sans', sans-serif;
+        }
+        main{ 
+            background: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/c6ffc801-5f11-4e2d-bcc1-0328cf8be08e-open-plan-living-design-ideas-minimalist.jpg);
+                height: 50vh;
+                display: flex;
+                background-position: center;
+            background-size: cover;
+            font-family: 'Noto Sans', sans-serif;
+            }
+            .yo{
+                text-decoration: none;
+                font-size: 12px;
+                font-weight: lighter;
+                transition: ease-in padding 1s;
+                color: black;
+                font-family: 'Barlow', sans-serif;
+                border-bottom: none;
+                padding: 2px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 650;
+                text-transform: uppercase;
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: 700px;
+                }
+                
+                .yo:hover{  
+                    border-bottom: 2px dashed #0f60b1;
+                    padding: 2px;
+                    font-family: 'Barlow', sans-serif;
+                    color: #1b82e9;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 650;
+                text-transform: uppercase;
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: 700px;
+                }
+                
+        }
+
+        @media screen and (max-width:400px){     
+            #blessed h3{
+                display: flex;
+                font-size: 13px;
+                font-weight: 700px;
+                }
+
+                #frame{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -10px;
+                    font-size: 12px;
+                    font-family: sans-serif;
+                    font-weight: 700px;
+                }
+        
+                #bant{
+                    font-size: 11.5px;
+                    font-family: sans-serif;
+                    font-weight: 700;
+                }
+                main{ 
+                    background: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/c6ffc801-5f11-4e2d-bcc1-0328cf8be08e-open-plan-living-design-ideas-minimalist.jpg);
+                        height: 50vh;
+                        display: flex;
+                        background-position: center;
+                    background-size: cover;
+                    font-family: 'Raleway', sans-serif;
+                    }
+        }
+
+        @media screen and (max-width:340px){  
+            #bant{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: -10px;
+                font-size: 9px;
+                font-family: sans-serif;
+                font-family: 'Raleway', sans-serif;
+            }
+            
+
+            .yo{
+                text-decoration: none;
+                font-size: 10px;
+                font-weight: lighter;
+                transition: ease-in padding 1s;
+                color: black;
+                font-family: 'Barlow', sans-serif;;
+                border-bottom: none;
+                padding: 2px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 650;
+                text-transform: uppercase;
+                font-family: 'Raleway', sans-serif
+                }
+                
+                .yo:hover{  
+                    border-bottom: 2px dashed #0f60b1;
+                    padding: 2px;
+                    font-family: 'Barlow', sans-serif;
+                    color: #1b82e9;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 650;
+                text-transform: uppercase;
+                }
+                
+            
+            #frame{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: -10px;
+                font-size: 8px;
+                font-family: sans-serif;
+            }
+            main{ 
+                background: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/c6ffc801-5f11-4e2d-bcc1-0328cf8be08e-open-plan-living-design-ideas-minimalist.jpg);
+                    height: 50vh;
+                    display: flex;
+                    background-position: center;
+                background-size: cover;
+                }
+         }
+
+         @media screen and (max-width:300px){  
+            #bed{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                width: 400px;
+                height: 200px;
+                font-weight: 750px;
+                border: none;
+                padding: 5px;
+                margin: 80px;
+                background: rgba(247, 241, 241, 0.429);
+                font-family: 'PT Sans', sans-serif;
+             /*   box-shadow: 0px 7px 0px 0px rgba(189, 22, 97, 0.782);*/
+            }
+            main{ 
+                background: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/c6ffc801-5f11-4e2d-bcc1-0328cf8be08e-open-plan-living-design-ideas-minimalist.jpg);
+                    height: 50vh;
+                    display: flex;
+                    background-position: center;
+                background-size: cover;
+                }
+
+                .yo{
+                    text-decoration: none;
+                    font-size: 10px;
+                    font-weight: lighter;
+                    transition: ease-in padding 1s;
+                    color: black;
+                    font-family: 'Barlow', sans-serif;
+                    border-bottom: none;
+                    padding: 2px;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 650;
+                    text-transform: uppercase;
+                    font-family: 'PT Sans', sans-serif;
+                    }
+                    
+                    .yo:hover{  
+                        border-bottom: 2px dashed #0f60b1;
+                        padding: 2px;
+                        font-family: 'Barlow', sans-serif;
+                        color: #1b82e9;
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 650;
+                    text-transform: uppercase;
+                    font-family: 'PT Sans', sans-serif;
+                    font-weight: 650px;
+                    }
+                    
+        }
+
+        @media screen and (max-width:700px){      
+    /*        #money #way{ 
+            font-size: 20px;
+            font-size: 20px;
+            border: 2px solid rgb(222, 184, 135);
+            display: flex;
+            margin-bottom: 25px;
+            padding: 10px 5px;
+            justify-content: center;
+            font-family: sans-serif;
+            font-size: 13px;
+            text-decoration: none;
+            background: none;
+            color: rgb(30, 113, 214);
+            padding: 5px 0px;
+            text-transform: uppercase;
+            color: wheat;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 650px;
+            }
+
+            #money #way:hover{
+                color: rgb(17, 8, 2);
+                cursor: pointer; 
+                border: 2px solid rgb(113, 110, 106);
+                font-family: 'Raleway', sans-serif;
+                font-weight: 650px;
+            }*/
+
+            .yo{
+                text-decoration: none;
+                font-size: 10px;
+                font-weight: lighter;
+                transition: ease-in padding 1s;
+                color: black;
+                font-family: 'Barlow', sans-serif;
+                border-bottom: none;
+                padding: 2px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 650;
+                text-transform: uppercase;
+                font-family: 'Raleway', sans-serif;
+                }
+                
+                .yo:hover{  
+                    border-bottom: 2px dashed #0f60b1;
+                    padding: 2px;
+                    font-family: 'Barlow', sans-serif;
+                    color: #1b82e9;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 650;
+                text-transform: uppercase;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 650px;
+                }
+                
+        }
+            @media screen and (max-width:2000px) and (min-width:700px) {  
+          #money #way{
+              display: none;
+              color: wheat;
+          }  
+            }
+
+            #bant{
+                font-family: 'PT Sans', sans-serif;
+                font-weight: 650;
+            }
+            @media screen and (max-width:700px) and (min-width:600px) {  
+                    #money #way{
+                        display: none;
+                        color: wheat;
+                    } 
+        
+            }
+
+
+            @media screen and (max-width:561px) { 
+            #bed{
+                width: 900px;
+            }
+        
+                }
+
+
+
+        
