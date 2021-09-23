@@ -33,8 +33,6 @@
  ##Larger screen sizes##
 <img src="beauty2/cooler1.png">
 
-<img src="beauty2/cooler7.png">
-
  ##smaller screen sizes##
 <img src="beauty2/cooler2.png">
 
@@ -51,6 +49,8 @@
    Learnt how to re-size pictures to fit their appropraite background.I also learnt a lot from float and clearfix hacking to it was kind of tiring.
    
  <img src="beauty/hike2.png">
+ 
+ <img src="beauty2/cooler7.png">
 
    ## Installations
    -For those Farmiliar with Git-hub you can clone the repo and pull to your local workplace to view.
