@@ -55,7 +55,9 @@
 
    ## Installations
    -For those Farmiliar with Git-hub you can clone the repo and pull to your local workplace to view.
+   
    -For those who want to view you can check this work from here [https://app.netlify.com/sites/romantic-lamarr-868c3d], to view Thank you once again.
+   
     -For those who want to view the second work, you can check this work from here [https://app.netlify.com/sites/infallible-beaver-15a4e4], to view Thank you once again.
 
 
