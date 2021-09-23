@@ -38,7 +38,7 @@
 
 <img src="beauty2/cooler3.png">
 
-##worked on an animation section##
+##worked on an background section##
 -CSS BACKGROUND: Worked with beautiful background pictures and practised beautiful layout of background pictures.
 
   ## Built with         
@@ -48,7 +48,7 @@
   ## My Challanges and lessons
    Learnt how to re-size pictures to fit their appropraite background.I also learnt a lot from float and clearfix hacking to it was kind of tiring.
    
- <img src="beauty/hike2.png">
+ <img src="beauty/hike3.png">
  
  <img src="beauty2/cooler7.png">
 
