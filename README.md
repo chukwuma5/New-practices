@@ -33,9 +33,10 @@
  ##Larger screen sizes##
 <img src="beauty2/cooler1.png">
 
- ##smaller screen sizes##
 <img src="beauty2/cooler2.png">
 
+ ##smaller screen sizes##
+ 
 <img src="beauty2/cooler3.png">
 
 ##worked on an background section##
